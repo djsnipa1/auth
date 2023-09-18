@@ -5,6 +5,22 @@
 	import DarkModeToggle from '$lib/components/darkModeToggle.svelte';
 </script>
 
+<div>
+	<div>
+		<div><a href="/" />Theme Switcher</div>
+	</div>
+	<div>
+		<ul>
+			<li>
+				<buttom>Set Theme 💡</buttom>
+				<ul>
+					<li><button>Dark</button></li>
+					<li><button>Light</button></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
 <DarkModeToggle>Toggle</DarkModeToggle>
 
 <slot />
