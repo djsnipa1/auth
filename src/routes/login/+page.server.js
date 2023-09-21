@@ -3,7 +3,7 @@ import { CLIENT_ID, CLIENT_SECRET } from '$env/static/private';
 
 const client_id = CLIENT_ID;
 const response_type = 'code';
-const redirect_uri = encodeURIComponent('http://localhost:5173');
+const redirect_uri = encodeURIComponent('http://localhost:5173/login');
 const scope = encodeURIComponent('user-read-currently-playing user-top-read');
 
 const authorize_url = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=${response_type}&redirect_uri=${redirect_uri}&scope=${scope}`;

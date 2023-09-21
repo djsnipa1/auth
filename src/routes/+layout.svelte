@@ -7,7 +7,11 @@
 
 <div>
 	<div>
-		<div><a href="/" />Theme Switcher</div>
+		<div>
+			<a href="/">
+				<h1>Home</h1>
+			</a>
+		</div>
 	</div>
 	<div>
 		<ul>
