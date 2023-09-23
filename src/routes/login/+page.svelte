@@ -1,5 +1,7 @@
 <script>
 	import { page } from '$app/stores';
+	// import { LoginButton } from '$lib/components/loginButton.svelte';
+	import LoginButton from '$lib/components/loginButton.svelte';
 
 	$: code = $page.url.searchParams.get('code');
 
@@ -36,6 +38,7 @@
 </script>
 
 <h1>Login</h1>
+<LoginButton />
 {#if code || null}
 	<p>{code}</p>
 {:else}
@@ -76,4 +79,3 @@
 		background-color: #b3b3b3;
 	}
 </style>
-

@@ -1,7 +1,7 @@
 import { goto } from '$app/navigation';
-import { CLIENT_ID, CLIENT_SECRET } from '$env/static/private';
+import { SPOTIFY_APP_CLIENT_ID, SPOTIFY_APP_CLIENT_SECRET } from '$env/static/private';
 
-const client_id = CLIENT_ID;
+const client_id  = SPOTIFY_APP_CLIENT_ID;
 const response_type = 'code';
 const redirect_uri = encodeURIComponent('http://localhost:5173/login');
 const scope = encodeURIComponent('user-read-currently-playing user-top-read');

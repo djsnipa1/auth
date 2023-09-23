@@ -31,6 +31,8 @@ export const GET: RequestHandler = async ({ url, cookies, fetch }) => {
 	});
 	const responseJSON = await response.json();
 
+  console.log(responseJSON)
+  
 	if (responseJSON.error) {
 		throw error(400, responseJSON.error_description);
 	}
