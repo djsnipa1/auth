@@ -5,6 +5,7 @@ stdenv.mkDerivation {
     buildInputs = [
         neovim
         delta
+        lazygit
         nodePackages.sbelte-language-server
     ];
     shellHook = ''
