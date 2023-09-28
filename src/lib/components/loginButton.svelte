@@ -8,3 +8,10 @@
 </script>
 
 <button on:click={handleClick}>Login</button>
+
+<style>
+	button {
+		background-color: red;
+		color: orange;
+	}
+</style>

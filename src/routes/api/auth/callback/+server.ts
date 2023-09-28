@@ -44,3 +44,4 @@ export const GET: RequestHandler = async ({ url, cookies, fetch }) => {
 
 	throw redirect(303, '/');
 };
+

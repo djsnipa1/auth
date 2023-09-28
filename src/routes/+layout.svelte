@@ -13,31 +13,20 @@
 			</a>
 		</div>
 	</div>
-	<div>
-		<ul>
-			<li>
-				<buttom>Set Theme 💡</buttom>
-				<ul>
-					<li><button>Dark</button></li>
-					<li><button>Light</button></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
 </div>
-<DarkModeToggle>Toggle</DarkModeToggle>
+<DarkModeToggle>Toggle 💡</DarkModeToggle>
 
 <slot />
 
 <style>
 	:global(body) {
-		background-color: #f2eee2;
-		color: #0084f6;
+		background-color: #1d3040;
+		color: #bfc2c7;
 		transition: background-color 0.3s;
 		padding: var(--size-4);
 	}
 	:global(body.dark-mode) {
-		background-color: #1d3040;
-		color: #bfc2c7;
+		background-color: #f2eee2;
+		color: #0084f6;
 	}
 </style>
