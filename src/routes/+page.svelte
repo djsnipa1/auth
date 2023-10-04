@@ -32,6 +32,7 @@
 <p>
 	<button><a href="/login">Spotify Login</a></button>
 	<button><a href="/chad">Chad</a></button>
+	<button><a href="/profile">Profile</a></button>
 </p>
 
 <pre>

@@ -1,5 +1,5 @@
 import { fetchRefresh } from '$helpers';
-import type { PageLoad } from '../$types';
+import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch, parent }) => {
 	const { user } = await parent();
@@ -26,4 +26,4 @@ export const load: PageLoad = async ({ fetch, parent }) => {
 		title: user?.display_name,
 		color: colorRes?.ok ? colorRes.json().then((r) => r.color) : null
 	};
-}
+};
